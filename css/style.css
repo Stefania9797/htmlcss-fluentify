@@ -1,0 +1,84 @@
+/* Common rules */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+/* Utility */
+a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+/* Header */
+header{
+    background-image: url(../img/background-header.png);
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    background-position: 115% 115%;
+    height: 500px;
+    width: 100%;
+    background-color:rgba(12, 50, 90, 1);
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+.left_nav , .right_nav , .logo{
+    float: left;
+}
+.logo{
+    width: 15%;
+}
+.left_nav{
+    width: 45%;
+}
+.right_nav{
+    width:40%; 
+    text-align: right;
+}
+/* Header buttons */
+.btn{
+    border-radius: 10px;
+}
+.btn_nav{
+    padding: 2% 4%;
+}
+.full{
+    background-color:rgba(124, 187, 2, 1);
+}
+.empty{
+    border: 1px solid white;
+}
+.main_btn{
+    margin-top: 30px;
+}
+.main_btn>a{
+    padding: 1%;
+    font-size: 12px;
+}
+/* Header links */
+.left_nav > a , .right_nav > a{
+    font-size: 12px;
+    line-height: 60px;
+    margin: 1%;
+}
+h1{
+    font-size: 45px;
+}
+.main_title{
+    color: white;
+    position: relative;
+    top: 100px;
+}
+
+/* rgba(12, 50, 90, 1)
+rgba(124, 187, 2, 1)
+rgba(211, 211, 211, 1)
+rgba(128, 128, 128, 1) */
